@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "595667919926",
+    "firebase_url": "https://zamanlayicikullanimi.firebaseio.com",
+    "project_id": "zamanlayicikullanimi",
+    "storage_bucket": "zamanlayicikullanimi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595667919926:android:80c9933f224f5fcb",
+        "android_client_info": {
+          "package_name": "com.zamanlayicikullanimi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "595667919926-pojgk5ks1sd1phqngqqv6cl348mde81m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zamanlayicikullanimi",
+            "certificate_hash": "d7b47fe0540be777147781cd5b455f186f8d087f"
+          }
+        },
+        {
+          "client_id": "595667919926-14g4gh2bvp1go7b3r1cehesrf00s9r48.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoUjQJwZGkpDsA3MmTdZ0ZB-FmlUURAG4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "595667919926-14g4gh2bvp1go7b3r1cehesrf00s9r48.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

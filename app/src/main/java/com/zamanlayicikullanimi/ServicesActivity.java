@@ -19,6 +19,7 @@ import com.google.firebase.database.ValueEventListener;
 public class ServicesActivity extends Service {
     FirebaseDatabase database = FirebaseDatabase.getInstance();
     DatabaseReference myRef = database.getReference("deger");
+    MediaPlayer mediaPlayer
 
 
     @Override
@@ -54,7 +55,7 @@ public class ServicesActivity extends Service {
             a[0]=a[0]*1000;
             zamanlayici.sleep(a[0]);
 
-            MediaPlayer mediaPlayer = MediaPlayer.create(this,R.raw.asd);
+            mediaPlayer = MediaPlayer.create(this,R.raw.asd);
             mediaPlayer.setLooping(true);
             mediaPlayer.start();
         } catch (InterruptedException e) {
@@ -68,6 +69,7 @@ public class ServicesActivity extends Service {
     @Override
     public void onDestroy() {
         Toast.makeText(getApplicationContext(),"Servis Bitir",Toast.LENGTH_SHORT).show();
+        mediaPlayer.stop();
         super.onDestroy();
     }
 
